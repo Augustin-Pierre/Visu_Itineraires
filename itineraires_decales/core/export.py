@@ -57,17 +57,24 @@ def exporter_couches(couches, dossier, fmt, canvas=None, log_widget=None):
 
 
 def _exporter_carte(dossier, fmt, canvas, log_widget):
-    nom_fichier = "carte_itineraires" + (".png" if fmt == "PNG" else ".pdf") # à rendre plus dynamique mais plus tard...
+    nom_fichier = "carte_itineraires" + (".png" if fmt == "PNG" else ".pdf")
     chemin = os.path.join(dossier, nom_fichier)
 
-    # Configuration du rendu (on prend ce qui est visible sur le canvas)
+    # Configuration du rendu
     settings = canvas.mapSettings()
-    settings.setBackgroundColor(Qt.white) # Fond blanc pour l'export
+    settings.setBackgroundColor(Qt.white)
+    
+    success = False # Initialisation de sécurité
     
     if fmt == "PNG":
         image = QImage(settings.outputSize(), QImage.Format_ARGB32_Premultiplied)
-        image.setDotsPerMeterX(96 / 0.0254) # 96 DPI
-        image.setDotsPerMeterY(96 / 0.0254)
+        
+        # 1. Remplir l'image en blanc pour éviter les glitchs visuels / fonds noirs
+        image.fill(Qt.white) 
+        
+        # 2. Convertir explicitement en entier (int) pour éviter le TypeError
+        image.setDotsPerMeterX(int(96 / 0.0254)) 
+        image.setDotsPerMeterY(int(96 / 0.0254))
         
         painter = QPainter(image)
         job = QgsMapRendererCustomPainterJob(settings, painter)
@@ -85,7 +92,6 @@ def _exporter_carte(dossier, fmt, canvas, log_widget):
         printer.setPageSize(QPrinter.A4)
         
         painter = QPainter(printer)
-        # On ajuste la vue au format de la page
         settings.setOutputSize(QSize(painter.viewport().width(), painter.viewport().height()))
         job = QgsMapRendererCustomPainterJob(settings, painter)
         job.start()
@@ -95,4 +101,7 @@ def _exporter_carte(dossier, fmt, canvas, log_widget):
 
     if success and log_widget:
         log_widget.append(f"OK Carte exportée : {nom_fichier}")
+    elif log_widget:
+        log_widget.append(f"ERR Echec de l'export de la carte au format {fmt}.")
+        
     return success

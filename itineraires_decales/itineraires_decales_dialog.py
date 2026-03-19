@@ -66,6 +66,14 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         self._onglet_traitement()
         self._onglet_selection()
         self._onglet_export()
+
+    def _log(self, msg, onglet="traitement"):
+        if onglet == "traitement":
+            self.zl_journal_dexe.append(msg)  
+        elif onglet == "export":
+            self.zl_journal_dexport.append(msg)
+
+        QApplication.processEvents()
         
     # =============================================================================
     # Onglet Données
@@ -121,13 +129,9 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         self.btn_reset_traitement.clicked.connect(self._reset_traitement)
         self.progressBar.setValue(0); self.progressBar.setFormat("En attente...")
 
-    def _log(self, msg, onglet="traitement"):
-        if onglet == "traitement":
-            self.zl_journal_dexe.append(msg)  # <--- CORRIGÉ ICI (sans le _1)
-        elif onglet == "export":
-            self.zl_journal_dexport.append(msg)
-
-        QApplication.processEvents()
+        self.slider_largeur.setValue(6) 
+        self.valeur_largeur.setText("6 unités de carte") 
+        self.slider_largeur.valueChanged.connect(self._maj_label_largeur)
 
     def _verifier_pret(self):
         if not self.layer_iti or not self.layer_res:
@@ -146,6 +150,10 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         self.zl_journal_dexe.clear()
         self.progressBar.setValue(0); self.progressBar.setFormat("En attente...")
 
+    def _maj_label_largeur(self, valeur):
+        """Met à jour le texte du label quand le curseur bouge."""
+        self.valeur_largeur.setText(str(valeur))
+
     def _maj_progression_traitement(self, pourcentage, message):
         """Met à jour la barre de progression."""
         self.progressBar.setValue(pourcentage)
@@ -161,7 +169,7 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         chemin_iti = self.btn_browse_iti.filePath()
         chemin_res = self.btn_browse_res.filePath()
 
-        largeur = 2
+        largeur = self.slider_largeur.value()
         tolerance = 0.01
 
         if not chemin_iti or not chemin_res:
@@ -208,7 +216,8 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
             return
             
         canvas = iface.mapCanvas()
-        self.outil_carte_actif = SelectItineraire(canvas, self.layer_strokes_iti, largeur=2, mode="selection")
+        largeur = self.slider_largeur.value()
+        self.outil_carte_actif = SelectItineraire(canvas, self.layer_strokes_iti, largeur, mode="selection")
         canvas.setMapTool(self.outil_carte_actif)
         self._log("OK : Mode sélection activé sur la carte.")
 

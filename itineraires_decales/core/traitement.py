@@ -23,7 +23,7 @@ from qgis.core import (
     QgsCategorizedSymbolRenderer
 )
 from qgis.PyQt.QtGui import QColor
-from qgis.PyQt.QtCore import QVariant, QMetaType
+from qgis.PyQt.QtCore import QVariant
 
 import processing
 import colorsys
