@@ -227,8 +227,8 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
             return
             
         canvas = iface.mapCanvas()
-        # On passe le paramètre mode="echange" à ton outil
-        self.outil_carte_actif = SelectItineraire(canvas, self.layer_strokes_iti, largeur=2, mode="echange")
+        largeur = self.slider_largeur.value()
+        self.outil_carte_actif = SelectItineraire(canvas, self.layer_strokes_iti, largeur, mode="echange")
         canvas.setMapTool(self.outil_carte_actif)
         self._log("OK : Mode échange activé sur la carte.")
 
