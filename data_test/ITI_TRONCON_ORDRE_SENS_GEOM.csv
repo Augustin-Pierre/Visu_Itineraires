@@ -1,0 +1,614 @@
+﻿r.id,r.title,f.order,t.cleabs,troncon_suivant,n.direction
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",1,TRONROUT0000000008081791,TRONROUT0000000008081793,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",2,TRONROUT0000000008081793,TRONROUT0000000008081792,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",3,TRONROUT0000000008081792,TRONROUT0000000008082500,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",4,TRONROUT0000000008082500,TRONROUT0000000341565734,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",5,TRONROUT0000000341565734,TRONROUT0000000008082516,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",6,TRONROUT0000000008082516,TRONROUT0000000008082514,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",7,TRONROUT0000000008082514,TRONROUT0000000341565704,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",8,TRONROUT0000000341565704,TRONROUT0000000008083087,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",9,TRONROUT0000000008083087,TRONROUT0000000008083088,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",10,TRONROUT0000000008083088,TRONROUT0000000008083086,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",11,TRONROUT0000000008083086,TRONROUT0000000008083079,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",12,TRONROUT0000000008083079,TRONROUT0000000008083542,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",13,TRONROUT0000000008083542,TRONROUT0000000008083543,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",14,TRONROUT0000000008083543,TRONROUT0000000008083544,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",15,TRONROUT0000000008083544,TRONROUT0000000008083537,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",16,TRONROUT0000000008083537,TRONROUT0000000008083538,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",17,TRONROUT0000000008083538,TRONROUT0000000008083541,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",18,TRONROUT0000000008083541,TRONROUT0000000341562842,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",19,TRONROUT0000000341562842,TRONROUT0000000341562852,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",20,TRONROUT0000000341562852,TRONROUT0000000008083955,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",21,TRONROUT0000000008083955,TRONROUT0000000008083953,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",22,TRONROUT0000000008083953,TRONROUT0000000008084446,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",23,TRONROUT0000000008084446,TRONROUT0000000341563452,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",24,TRONROUT0000000341563452,TRONROUT0000000008084445,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",25,TRONROUT0000000008084445,TRONROUT0000000008084920,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",26,TRONROUT0000000008084920,TRONROUT0000000341563449,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",27,TRONROUT0000000341563449,TRONROUT0000000341563450,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",28,TRONROUT0000000341563450,TRONROUT0000000008084919,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",29,TRONROUT0000000008084919,TRONROUT0000000008085468,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",30,TRONROUT0000000008085468,TRONROUT0000000341563718,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",31,TRONROUT0000000341563718,FICTIF007,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",32,FICTIF007,FICTIF008,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",33,FICTIF008,TRONROUT0000000338021346-TRONC1,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",34,TRONROUT0000000338021346-TRONC1,FICTIF009,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",35,FICTIF009,TRONROUT0000002209692628,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",36,TRONROUT0000002209692628,TRONROUT0000000341562822,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",37,TRONROUT0000000341562822,TRONROUT0000000008083528,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",38,TRONROUT0000000008083528,TRONROUT0000000341562836,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",39,TRONROUT0000000341562836,TRONROUT0000000008082497,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",40,TRONROUT0000000008082497,TRONROUT0000000341562525,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",41,TRONROUT0000000341562525,TRONROUT0000000008082496,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",42,TRONROUT0000000008082496,TRONROUT0000000341565472,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",43,TRONROUT0000000341565472,TRONROUT0000000341562503,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",44,TRONROUT0000000341562503,TRONROUT0000000341562502,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",45,TRONROUT0000000341562502,TRONROUT0000000341562506,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",46,TRONROUT0000000341562506,TRONROUT0000000341562510,INVERSE
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",47,TRONROUT0000000341562510,TRONROUT0000000225304734,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",48,TRONROUT0000000225304734,TRONROUT0000000225304731,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",49,TRONROUT0000000225304731,TRONROUT0000000008081781,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",50,TRONROUT0000000008081781,TRONROUT0000000008081785,SAME
+13627,"Traversée des Rochers de la Balme, de la Combe de Fer au Pas Ernadant",51,TRONROUT0000000008081785,null,null
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",1,TRONROUT0000000225304741,TRONROUT0000002209679382,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",2,TRONROUT0000002209679382,TRONROUT0000002209679383,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",3,TRONROUT0000002209679383,TRONROUT0000002209679384,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",4,TRONROUT0000002209679384,TRONROUT0000002209679381,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",5,TRONROUT0000002209679381,TRONROUT0000002002242476,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",6,TRONROUT0000002002242476,TRONROUT0000000225304744,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",7,TRONROUT0000000225304744,TRONROUT0000000008082495,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",8,TRONROUT0000000008082495,TRONROUT0000002008287543,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",9,TRONROUT0000002008287543,TRONROUT0000000341562526,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",10,TRONROUT0000000341562526,TRONROUT0000000341083605,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",11,TRONROUT0000000341083605,TRONROUT0000000341083606,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",12,TRONROUT0000000341083606,TRONROUT0000000338165187,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",13,TRONROUT0000000338165187,TRONROUT0000000338165186,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",14,TRONROUT0000000338165186,TRONROUT0000000008083066,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",15,TRONROUT0000000008083066,TRONROUT0000000341562832,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",16,TRONROUT0000000341562832,TRONROUT0000000341562828,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",17,TRONROUT0000000341562828,TRONROUT0000000341566611,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",18,TRONROUT0000000341566611,TRONROUT0000000338165185,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",19,TRONROUT0000000338165185,TRONROUT0000000338165188,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",20,TRONROUT0000000338165188,TRONROUT0000000008083524,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",21,TRONROUT0000000008083524,TRONROUT0000000008083949,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",22,TRONROUT0000000008083949,TRONROUT0000000338021347,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",23,TRONROUT0000000338021347,TRONROUT0000000008083944,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",24,TRONROUT0000000008083944,TRONROUT0000000008083948,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",25,TRONROUT0000000008083948,TRONROUT0000000008083943,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",26,TRONROUT0000000008083943,TRONROUT0000000008083942,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",27,TRONROUT0000000008083942,TRONROUT0000000008083937,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",28,TRONROUT0000000008083937,TRONROUT0000002205707328,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",29,TRONROUT0000002205707328,TRONROUT0000002207109440,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",30,TRONROUT0000002207109440,TRONROUT0000002207109441,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",31,TRONROUT0000002207109441,TRONROUT0000000008083509,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",32,TRONROUT0000000008083509,TRONROUT0000000008083508,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",33,TRONROUT0000000008083508,TRONROUT0000000008083511,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",34,TRONROUT0000000008083511,TRONROUT0000002207452554,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",35,TRONROUT0000002207452554,TRONROUT0000000008083510,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",36,TRONROUT0000000008083510,TRONROUT0000002207452536,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",37,TRONROUT0000002207452536,TRONROUT0000002207452557,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",38,TRONROUT0000002207452557,TRONROUT0000000332219998,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",39,TRONROUT0000000332219998,TRONROUT0000002207453058,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",40,TRONROUT0000002207453058,TRONROUT0000002207452476,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",41,TRONROUT0000002207452476,TRONROUT0000000338165191,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",42,TRONROUT0000000338165191,TRONROUT0000002209679474,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",43,TRONROUT0000002209679474,TRONROUT0000000338165097,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",44,TRONROUT0000000338165097,TRONROUT0000000338165193,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",45,TRONROUT0000000338165193,TRONROUT0000000332219999,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",46,TRONROUT0000000332219999,TRONROUT0000002206028664,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",47,TRONROUT0000002206028664,TRONROUT0000002209679478,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",48,TRONROUT0000002209679478,TRONROUT0000002209679479,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",49,TRONROUT0000002209679479,TRONROUT0000000338165192,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",50,TRONROUT0000000338165192,TRONROUT0000000296053792,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",51,TRONROUT0000000296053792,TRONROUT0000000008083049,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",52,TRONROUT0000000008083049,TRONROUT0000000008082461,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",53,TRONROUT0000000008082461,TRONROUT0000002209679472,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",54,TRONROUT0000002209679472,TRONROUT0000000296053799,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",55,TRONROUT0000000296053799,TRONROUT0000000008082469,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",56,TRONROUT0000000008082469,TRONROUT0000000008082470,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",57,TRONROUT0000000008082470,TRONROUT0000000008082467,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",58,TRONROUT0000000008082467,TRONROUT0000000008081719,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",59,TRONROUT0000000008081719,TRONROUT0000000332219987,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",60,TRONROUT0000000332219987,TRONROUT0000000008081728,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",61,TRONROUT0000000008081728,TRONROUT0000000341565620,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",62,TRONROUT0000000341565620,TRONROUT0000000341562517,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",63,TRONROUT0000000341562517,TRONROUT0000000341562520,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",64,TRONROUT0000000341562520,FICTIF001,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",65,FICTIF001,TRONROUT0000000341562516,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",66,TRONROUT0000000341562516,TRONROUT0000000008082483,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",67,TRONROUT0000000008082483,TRONROUT0000000008082490,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",68,TRONROUT0000000008082490,TRONROUT0000000008082475,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",69,TRONROUT0000000008082475,TRONROUT0000000008081750,INVERSE
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",70,TRONROUT0000000008081750,TRONROUT0000000008081748,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",71,TRONROUT0000000008081748,TRONROUT0000002209679376,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",72,TRONROUT0000002209679376,TRONROUT0000000008081749,SAME
+17660,"Tour des Moucherolles par le Pas de la Balme, le Col des Deux Sœurs et le Passage de Combeauvieux",73,TRONROUT0000000008081749,null,null
+1955,Crête des Rochers de la Balme (2063m) en traversée,1,TRONROUT0000000008081791,TRONROUT0000000008081793,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,2,TRONROUT0000000008081793,TRONROUT0000000008081792,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,3,TRONROUT0000000008081792,TRONROUT0000000008082500,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,4,TRONROUT0000000008082500,TRONROUT0000000341565734,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,5,TRONROUT0000000341565734,TRONROUT0000000008082516,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,6,TRONROUT0000000008082516,TRONROUT0000000341565733,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,7,TRONROUT0000000341565733,TRONROUT0000000341562529,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,8,TRONROUT0000000341562529,TRONROUT0000000008082501,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,9,TRONROUT0000000008082501,TRONROUT0000000341565615,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,10,TRONROUT0000000341565615,TRONROUT0000000341562816,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,11,TRONROUT0000000341562816,TRONROUT0000000008083072,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,12,TRONROUT0000000008083072,TRONROUT0000000341562823,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,13,TRONROUT0000000341562823,TRONROUT0000000008083071,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,14,TRONROUT0000000008083071,TRONROUT0000000008083074,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,15,TRONROUT0000000008083074,TRONROUT0000000008083532,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,16,TRONROUT0000000008083532,TRONROUT0000000341562824,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,17,TRONROUT0000000341562824,TRONROUT0000000341562825,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,18,TRONROUT0000000341562825,TRONROUT0000000008083531,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,19,TRONROUT0000000008083531,TRONROUT0000002003910412,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,20,TRONROUT0000002003910412,TRONROUT0000000008083950,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,21,TRONROUT0000000008083950,FICTIF010,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,22,FICTIF010,FICTIF008,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,23,FICTIF008,TRONROUT0000000338021346-TRONC1,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,24,TRONROUT0000000338021346-TRONC1,null,null
+1955,Crête des Rochers de la Balme (2063m) en traversée,25,TRONROUT0000000338021346-TRONC1,TRONROUT0000000338021346-TRONC2,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,26,TRONROUT0000000338021346-TRONC2,TRONROUT0000000008083949,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,27,TRONROUT0000000008083949,TRONROUT0000000008083524,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,28,TRONROUT0000000008083524,TRONROUT0000000338165188,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,29,TRONROUT0000000338165188,TRONROUT0000000341083445,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,30,TRONROUT0000000341083445,TRONROUT0000000338165189,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,31,TRONROUT0000000338165189,TRONROUT0000000341566611,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,32,TRONROUT0000000341566611,TRONROUT0000000341562828,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,33,TRONROUT0000000341562828,TRONROUT0000000341562832,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,34,TRONROUT0000000341562832,TRONROUT0000000008083066,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,35,TRONROUT0000000008083066,TRONROUT0000000338165186,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,36,TRONROUT0000000338165186,TRONROUT0000000338165187,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,37,TRONROUT0000000338165187,TRONROUT0000000341083606,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,38,TRONROUT0000000341083606,TRONROUT0000000341083605,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,39,TRONROUT0000000341083605,TRONROUT0000000341562526,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,40,TRONROUT0000000341562526,TRONROUT0000002008287543,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,41,TRONROUT0000002008287543,TRONROUT0000000008082495,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,42,TRONROUT0000000008082495,TRONROUT0000000225304744,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,43,TRONROUT0000000225304744,TRONROUT0000002002242476,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,44,TRONROUT0000002002242476,TRONROUT0000002209679381,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,45,TRONROUT0000002209679381,TRONROUT0000002209679384,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,46,TRONROUT0000002209679384,TRONROUT0000002209679383,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,47,TRONROUT0000002209679383,TRONROUT0000002209679382,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,48,TRONROUT0000002209679382,TRONROUT0000000008081747,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,49,TRONROUT0000000008081747,TRONROUT0000000008081745,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,50,TRONROUT0000000008081745,TRONROUT0000000296053901,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,51,TRONROUT0000000296053901,TRONROUT0000000296053900,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,52,TRONROUT0000000296053900,TRONROUT0000000008081738,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,53,TRONROUT0000000008081738,TRONROUT0000000008081762,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,54,TRONROUT0000000008081762,TRONROUT0000000008081759,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,55,TRONROUT0000000008081759,TRONROUT0000000008080983,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,56,TRONROUT0000000008080983,TRONROUT0000000341566614,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,57,TRONROUT0000000341566614,TRONROUT0000000341566615,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,58,TRONROUT0000000341566615,TRONROUT0000000341566619,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,59,TRONROUT0000000341566619,TRONROUT0000000331327446,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,60,TRONROUT0000000331327446,TRONROUT0000000008081770,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,61,TRONROUT0000000008081770,TRONROUT0000000008081765,INVERSE
+1955,Crête des Rochers de la Balme (2063m) en traversée,62,TRONROUT0000000008081765,TRONROUT0000000341562508,SAME
+1955,Crête des Rochers de la Balme (2063m) en traversée,63,TRONROUT0000000341562508,null,null
+1955,Crête des Rochers de la Balme (2063m) en traversée,64,TRONROUT0000000341562508,null,null
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",1,TRONROUT0000000008086673,TRONROUT0000000008086676,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",2,TRONROUT0000000008086676,TRONROUT0000000008086665,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",3,TRONROUT0000000008086665,TRONROUT0000000008086687,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",4,TRONROUT0000000008086687,TRONROUT0000000332673680,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",5,TRONROUT0000000332673680,TRONROUT0000000332673679,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",6,TRONROUT0000000332673679,TRONROUT0000000296027152,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",7,TRONROUT0000000296027152,TRONROUT0000000008087180,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",8,TRONROUT0000000008087180,TRONROUT0000000332673682,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",9,TRONROUT0000000332673682,TRONROUT0000000296027151,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",10,TRONROUT0000000296027151,TRONROUT0000000008087597,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",11,TRONROUT0000000008087597,TRONROUT0000000008087598,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",12,TRONROUT0000000008087598,TRONROUT0000000008086690,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",13,TRONROUT0000000008086690,TRONROUT0000000008086117,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",14,TRONROUT0000000008086117,TRONROUT0000000008086116,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",15,TRONROUT0000000008086116,TRONROUT0000000008086114,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",16,TRONROUT0000000008086114,TRONROUT0000000008084914,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",17,TRONROUT0000000008084914,TRONROUT0000000008084915,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",18,TRONROUT0000000008084915,TRONROUT0000000341563446,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",19,TRONROUT0000000341563446,TRONROUT0000000008084441,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",20,TRONROUT0000000008084441,TRONROUT0000000332220091,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",21,TRONROUT0000000332220091,TRONROUT0000000008084909,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",22,TRONROUT0000000008084909,TRONROUT0000000332220094,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",23,TRONROUT0000000332220094,TRONROUT0000000008084910,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",24,TRONROUT0000000008084910,TRONROUT0000000085226630,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",25,TRONROUT0000000085226630,TRONROUT0000000085226633,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",26,TRONROUT0000000085226633,TRONROUT0000000087821815,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",27,TRONROUT0000000087821815,TRONROUT0000000246173769,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",28,TRONROUT0000000246173769,TRONROUT0000000338021348,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",29,TRONROUT0000000338021348,TRONROUT0000000338021350,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",30,TRONROUT0000000338021350,TRONROUT0000000338021349,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",31,TRONROUT0000000338021349,TRONROUT0000000008085458,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",32,TRONROUT0000000008085458,TRONROUT0000000008085465,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",33,TRONROUT0000000008085465,TRONROUT0000000008086103,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",34,TRONROUT0000000008086103,TRONROUT0000000008086095,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",35,TRONROUT0000000008086095,TRONROUT0000002202850980,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",36,TRONROUT0000002202850980,TRONROUT0000000008086102,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",37,TRONROUT0000000008086102,TRONROUT0000000008086100,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",38,TRONROUT0000000008086100,TRONROUT0000000332673483,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",39,TRONROUT0000000332673483,TRONROUT0000000332673481,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",40,TRONROUT0000000332673481,TRONROUT0000000008086663,INVERSE
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",41,TRONROUT0000000008086663,TRONROUT0000000008086675,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",42,TRONROUT0000000008086675,TRONROUT0000000008086673,SAME
+22594,"Traversée sur le Sentier du Périmètre par l’Abri de la Peyrouse, en boucle par Chênevarie, de Bourgmenu",43,TRONROUT0000000008086673,null,null
+24596,Pas de la Balme,1,TRONROUT0000000008083932,TRONROUT0000000008083930,SAME
+24596,Pas de la Balme,2,TRONROUT0000000008083930,FICTIF006,INVERSE
+24596,Pas de la Balme,3,FICTIF006,TRONROUT0000002209679488,SAME
+24596,Pas de la Balme,4,TRONROUT0000002209679488,TRONROUT0000002209679491,SAME
+24596,Pas de la Balme,5,TRONROUT0000002209679491,TRONROUT0000002209679492,SAME
+24596,Pas de la Balme,6,TRONROUT0000002209679492,TRONROUT0000002209679493,SAME
+24596,Pas de la Balme,7,TRONROUT0000002209679493,TRONROUT0000002204113785,INVERSE
+24596,Pas de la Balme,8,TRONROUT0000002204113785,TRONROUT0000002204113784,SAME
+24596,Pas de la Balme,9,TRONROUT0000002204113784,TRONROUT0000000332220048-TRONC4,SAME
+24596,Pas de la Balme,10,TRONROUT0000000332220048-TRONC4,TRONROUT0000002207109418-TRONC3,SAME
+24596,Pas de la Balme,11,TRONROUT0000002207109418-TRONC3,TRONROUT0000000008084425,SAME
+24596,Pas de la Balme,12,TRONROUT0000000008084425,TRONROUT0000002207109420,SAME
+24596,Pas de la Balme,13,TRONROUT0000002207109420,TRONROUT0000000338047364,SAME
+24596,Pas de la Balme,14,TRONROUT0000000338047364,TRONROUT0000002207109424,SAME
+24596,Pas de la Balme,15,TRONROUT0000002207109424,TRONROUT0000000296053829,SAME
+24596,Pas de la Balme,16,TRONROUT0000000296053829,TRONROUT0000002207109447,INVERSE
+24596,Pas de la Balme,17,TRONROUT0000002207109447,TRONROUT0000000338165317,SAME
+24596,Pas de la Balme,18,TRONROUT0000000338165317,TRONROUT0000000008083941,SAME
+24596,Pas de la Balme,19,TRONROUT0000000008083941,TRONROUT0000000008083940,INVERSE
+24596,Pas de la Balme,20,TRONROUT0000000008083940,TRONROUT0000000008083943,SAME
+24596,Pas de la Balme,21,TRONROUT0000000008083943,TRONROUT0000000008083948,SAME
+24596,Pas de la Balme,22,TRONROUT0000000008083948,TRONROUT0000000008083946,INVERSE
+24596,Pas de la Balme,23,TRONROUT0000000008083946,TRONROUT0000000008083945,INVERSE
+24596,Pas de la Balme,24,TRONROUT0000000008083945,TRONROUT0000000338021347,INVERSE
+24596,Pas de la Balme,25,TRONROUT0000000338021347,null,null
+24596,Pas de la Balme,26,TRONROUT0000000338021347,TRONROUT0000000008083945,INVERSE
+24596,Pas de la Balme,27,TRONROUT0000000008083945,TRONROUT0000000008083946,INVERSE
+24596,Pas de la Balme,28,TRONROUT0000000008083946,TRONROUT0000000008083948,INVERSE
+24596,Pas de la Balme,29,TRONROUT0000000008083948,TRONROUT0000000008083943,SAME
+24596,Pas de la Balme,30,TRONROUT0000000008083943,TRONROUT0000000008083940,SAME
+24596,Pas de la Balme,31,TRONROUT0000000008083940,TRONROUT0000000008083941,INVERSE
+24596,Pas de la Balme,32,TRONROUT0000000008083941,TRONROUT0000000338165317,SAME
+24596,Pas de la Balme,33,TRONROUT0000000338165317,TRONROUT0000002207109447,SAME
+24596,Pas de la Balme,34,TRONROUT0000002207109447,TRONROUT0000000296053829,INVERSE
+24596,Pas de la Balme,35,TRONROUT0000000296053829,TRONROUT0000002207109424,SAME
+24596,Pas de la Balme,36,TRONROUT0000002207109424,TRONROUT0000000338047364,SAME
+24596,Pas de la Balme,37,TRONROUT0000000338047364,TRONROUT0000002207109420,SAME
+24596,Pas de la Balme,38,TRONROUT0000002207109420,TRONROUT0000000008084425,SAME
+24596,Pas de la Balme,39,TRONROUT0000000008084425,TRONROUT0000002207109418-TRONC3,SAME
+24596,Pas de la Balme,40,TRONROUT0000002207109418-TRONC3,TRONROUT0000000332220048-TRONC4,SAME
+24596,Pas de la Balme,41,TRONROUT0000000332220048-TRONC4,TRONROUT0000002204113784,SAME
+24596,Pas de la Balme,42,TRONROUT0000002204113784,TRONROUT0000002204113785,SAME
+24596,Pas de la Balme,43,TRONROUT0000002204113785,TRONROUT0000002209679493,INVERSE
+24596,Pas de la Balme,44,TRONROUT0000002209679493,TRONROUT0000002209679492,SAME
+24596,Pas de la Balme,45,TRONROUT0000002209679492,TRONROUT0000002209679491,SAME
+24596,Pas de la Balme,46,TRONROUT0000002209679491,TRONROUT0000002209679488,SAME
+24596,Pas de la Balme,47,TRONROUT0000002209679488,FICTIF006,SAME
+24596,Pas de la Balme,48,FICTIF006,TRONROUT0000000008083930,INVERSE
+24596,Pas de la Balme,49,TRONROUT0000000008083930,TRONROUT0000000008083932,SAME
+24596,Pas de la Balme,50,TRONROUT0000000008083932,null,null
+27592,Le Pas de la Balme,1,TRONROUT0000000332673457,TRONROUT0000000008084894,SAME
+27592,Le Pas de la Balme,2,TRONROUT0000000008084894,TRONROUT0000002209679360,SAME
+27592,Le Pas de la Balme,3,TRONROUT0000002209679360,TRONROUT0000002209679361,SAME
+27592,Le Pas de la Balme,4,TRONROUT0000002209679361,TRONROUT0000000087821824,INVERSE
+27592,Le Pas de la Balme,5,TRONROUT0000000087821824,TRONROUT0000002209679363,SAME
+27592,Le Pas de la Balme,6,TRONROUT0000002209679363,TRONROUT0000000087821825,SAME
+27592,Le Pas de la Balme,7,TRONROUT0000000087821825,TRONROUT0000000008084416,INVERSE
+27592,Le Pas de la Balme,8,TRONROUT0000000008084416,TRONROUT0000000008084412,SAME
+27592,Le Pas de la Balme,9,TRONROUT0000000008084412,TRONROUT0000000008084415,INVERSE
+27592,Le Pas de la Balme,10,TRONROUT0000000008084415,TRONROUT0000000240305303,SAME
+27592,Le Pas de la Balme,11,TRONROUT0000000240305303,TRONROUT0000000008083933,SAME
+27592,Le Pas de la Balme,12,TRONROUT0000000008083933,TRONROUT0000002209679483,INVERSE
+27592,Le Pas de la Balme,13,TRONROUT0000002209679483,TRONROUT0000002209679486,SAME
+27592,Le Pas de la Balme,14,TRONROUT0000002209679486,TRONROUT0000002209679489,SAME
+27592,Le Pas de la Balme,15,TRONROUT0000002209679489,TRONROUT0000002209679490,SAME
+27592,Le Pas de la Balme,16,TRONROUT0000002209679490,TRONROUT0000002209679491,SAME
+27592,Le Pas de la Balme,17,TRONROUT0000002209679491,TRONROUT0000002209679492,SAME
+27592,Le Pas de la Balme,18,TRONROUT0000002209679492,TRONROUT0000002209679493,SAME
+27592,Le Pas de la Balme,19,TRONROUT0000002209679493,TRONROUT0000002209679494,SAME
+27592,Le Pas de la Balme,20,TRONROUT0000002209679494,TRONROUT0000002209679495,SAME
+27592,Le Pas de la Balme,21,TRONROUT0000002209679495,TRONROUT0000002209679484,SAME
+27592,Le Pas de la Balme,22,TRONROUT0000002209679484,TRONROUT0000000008083941,SAME
+27592,Le Pas de la Balme,23,TRONROUT0000000008083941,TRONROUT0000000008083940,INVERSE
+27592,Le Pas de la Balme,24,TRONROUT0000000008083940,TRONROUT0000000008083943,SAME
+27592,Le Pas de la Balme,25,TRONROUT0000000008083943,TRONROUT0000000008083948,SAME
+27592,Le Pas de la Balme,26,TRONROUT0000000008083948,TRONROUT0000000008083944,SAME
+27592,Le Pas de la Balme,27,TRONROUT0000000008083944,TRONROUT0000000338021347,INVERSE
+27592,Le Pas de la Balme,28,TRONROUT0000000338021347,null,null
+27592,Le Pas de la Balme,29,TRONROUT0000000338021347,TRONROUT0000000008083944,INVERSE
+27592,Le Pas de la Balme,30,TRONROUT0000000008083944,TRONROUT0000000008083948,SAME
+27592,Le Pas de la Balme,31,TRONROUT0000000008083948,TRONROUT0000000008083947,SAME
+27592,Le Pas de la Balme,32,TRONROUT0000000008083947,TRONROUT0000000338165318,SAME
+27592,Le Pas de la Balme,33,TRONROUT0000000338165318,TRONROUT0000000338165320,SAME
+27592,Le Pas de la Balme,34,TRONROUT0000000338165320,TRONROUT0000000332220057,SAME
+27592,Le Pas de la Balme,35,TRONROUT0000000332220057,TRONROUT0000000296027134,INVERSE
+27592,Le Pas de la Balme,36,TRONROUT0000000296027134,TRONROUT0000000338165324,INVERSE
+27592,Le Pas de la Balme,37,TRONROUT0000000338165324,TRONROUT0000000338165325,INVERSE
+27592,Le Pas de la Balme,38,TRONROUT0000000338165325,TRONROUT0000000332220144,INVERSE
+27592,Le Pas de la Balme,39,TRONROUT0000000332220144,TRONROUT0000000332220141,SAME
+27592,Le Pas de la Balme,40,TRONROUT0000000332220141,TRONROUT0000000332220142,SAME
+27592,Le Pas de la Balme,41,TRONROUT0000000332220142,TRONROUT0000000332220143,INVERSE
+27592,Le Pas de la Balme,42,TRONROUT0000000332220143,TRONROUT0000000332220136,SAME
+27592,Le Pas de la Balme,43,TRONROUT0000000332220136,TRONROUT0000000332220139,SAME
+27592,Le Pas de la Balme,44,TRONROUT0000000332220139,TRONROUT0000000008084906,SAME
+27592,Le Pas de la Balme,45,TRONROUT0000000008084906,TRONROUT0000000008084897,SAME
+27592,Le Pas de la Balme,46,TRONROUT0000000008084897,TRONROUT0000000087821821,SAME
+27592,Le Pas de la Balme,47,TRONROUT0000000087821821,TRONROUT0000000332220187,SAME
+27592,Le Pas de la Balme,48,TRONROUT0000000332220187,TRONROUT0000000332673451,SAME
+27592,Le Pas de la Balme,49,TRONROUT0000000332673451,TRONROUT0000000332220454,INVERSE
+27592,Le Pas de la Balme,50,TRONROUT0000000332220454,TRONROUT0000000332673459,SAME
+27592,Le Pas de la Balme,51,TRONROUT0000000332673459,TRONROUT0000000332673454,INVERSE
+27592,Le Pas de la Balme,52,TRONROUT0000000332673454,null,null
+27606,Sous la Tune de l'Ours,1,TRONROUT0000000008086107,TRONROUT0000000296027113,SAME
+27606,Sous la Tune de l'Ours,2,TRONROUT0000000296027113,TRONROUT0000000008086106,SAME
+27606,Sous la Tune de l'Ours,3,TRONROUT0000000008086106,TRONROUT0000000008086109,INVERSE
+27606,Sous la Tune de l'Ours,4,TRONROUT0000000008086109,TRONROUT0000000289142592,SAME
+27606,Sous la Tune de l'Ours,5,TRONROUT0000000289142592,TRONROUT0000000332673485,SAME
+27606,Sous la Tune de l'Ours,6,TRONROUT0000000332673485,TRONROUT0000000332673484,SAME
+27606,Sous la Tune de l'Ours,7,TRONROUT0000000332673484,TRONROUT0000000008086680,SAME
+27606,Sous la Tune de l'Ours,8,TRONROUT0000000008086680,TRONROUT0000000332673490,SAME
+27606,Sous la Tune de l'Ours,9,TRONROUT0000000332673490,TRONROUT0000000332673495,SAME
+27606,Sous la Tune de l'Ours,10,TRONROUT0000000332673495,TRONROUT0000000008086684,SAME
+27606,Sous la Tune de l'Ours,11,TRONROUT0000000008086684,TRONROUT0000000008086683,SAME
+27606,Sous la Tune de l'Ours,12,TRONROUT0000000008086683,TRONROUT0000000008086115,SAME
+27606,Sous la Tune de l'Ours,13,TRONROUT0000000008086115,TRONROUT0000000008086117,SAME
+27606,Sous la Tune de l'Ours,14,TRONROUT0000000008086117,TRONROUT0000000008086690,SAME
+27606,Sous la Tune de l'Ours,15,TRONROUT0000000008086690,TRONROUT0000000008087598,INVERSE
+27606,Sous la Tune de l'Ours,16,TRONROUT0000000008087598,TRONROUT0000000008087597,INVERSE
+27606,Sous la Tune de l'Ours,17,TRONROUT0000000008087597,TRONROUT0000000296027151,INVERSE
+27606,Sous la Tune de l'Ours,18,TRONROUT0000000296027151,TRONROUT0000000332673682,SAME
+27606,Sous la Tune de l'Ours,19,TRONROUT0000000332673682,TRONROUT0000000008087180,SAME
+27606,Sous la Tune de l'Ours,20,TRONROUT0000000008087180,TRONROUT0000000296027152,INVERSE
+27606,Sous la Tune de l'Ours,21,TRONROUT0000000296027152,TRONROUT0000000008087183,SAME
+27606,Sous la Tune de l'Ours,22,TRONROUT0000000008087183,TRONROUT0000000008086681,SAME
+27606,Sous la Tune de l'Ours,23,TRONROUT0000000008086681,TRONROUT0000000332673499,INVERSE
+27606,Sous la Tune de l'Ours,24,TRONROUT0000000332673499,TRONROUT0000000008086686,SAME
+27606,Sous la Tune de l'Ours,25,TRONROUT0000000008086686,TRONROUT0000000332673494,SAME
+27606,Sous la Tune de l'Ours,26,TRONROUT0000000332673494,TRONROUT0000000008086682,SAME
+27606,Sous la Tune de l'Ours,27,TRONROUT0000000008086682,TRONROUT0000000008086669,INVERSE
+27606,Sous la Tune de l'Ours,28,TRONROUT0000000008086669,TRONROUT0000000008086675,SAME
+27606,Sous la Tune de l'Ours,29,TRONROUT0000000008086675,TRONROUT0000000008086674,SAME
+27606,Sous la Tune de l'Ours,30,TRONROUT0000000008086674,TRONROUT0000000296027115,SAME
+27606,Sous la Tune de l'Ours,31,TRONROUT0000000296027115,null,null
+293730,Le Lauzet,1,TRONROUT0000000008079055,TRONROUT0000000008079061,INVERSE
+293730,Le Lauzet,2,TRONROUT0000000008079061,TRONROUT0000000008079062,SAME
+293730,Le Lauzet,3,TRONROUT0000000008079062,TRONROUT0000000008079084,SAME
+293730,Le Lauzet,4,TRONROUT0000000008079084,TRONROUT0000000008079083,SAME
+293730,Le Lauzet,5,TRONROUT0000000008079083,TRONROUT0000000008079090,SAME
+293730,Le Lauzet,6,TRONROUT0000000008079090,TRONROUT0000000008079086,INVERSE
+293730,Le Lauzet,7,TRONROUT0000000008079086,TRONROUT0000000008079088,INVERSE
+293730,Le Lauzet,8,TRONROUT0000000008079088,TRONROUT0000000008079093,SAME
+293730,Le Lauzet,9,TRONROUT0000000008079093,TRONROUT0000000008079952,INVERSE
+293730,Le Lauzet,10,TRONROUT0000000008079952,TRONROUT0000000338764732,INVERSE
+293730,Le Lauzet,11,TRONROUT0000000338764732,TRONROUT0000000296053921,SAME
+293730,Le Lauzet,12,TRONROUT0000000296053921,TRONROUT0000000296053920,SAME
+293730,Le Lauzet,13,TRONROUT0000000296053920,TRONROUT0000000338764731,SAME
+293730,Le Lauzet,14,TRONROUT0000000338764731,TRONROUT0000000008080923,INVERSE
+293730,Le Lauzet,15,TRONROUT0000000008080923,TRONROUT0000000008080929,SAME
+293730,Le Lauzet,16,TRONROUT0000000008080929,TRONROUT0000000008079955,SAME
+293730,Le Lauzet,17,TRONROUT0000000008079955,TRONROUT0000000245557505,INVERSE
+293730,Le Lauzet,18,TRONROUT0000000245557505,TRONROUT0000000008079949,INVERSE
+293730,Le Lauzet,19,TRONROUT0000000008079949,TRONROUT0000000008079953,SAME
+293730,Le Lauzet,20,TRONROUT0000000008079953,TRONROUT0000000008079093,SAME
+293730,Le Lauzet,21,TRONROUT0000000008079093,TRONROUT0000000008079088,SAME
+293730,Le Lauzet,22,TRONROUT0000000008079088,TRONROUT0000000008079086,INVERSE
+293730,Le Lauzet,23,TRONROUT0000000008079086,TRONROUT0000000008079090,INVERSE
+293730,Le Lauzet,24,TRONROUT0000000008079090,TRONROUT0000000008079083,SAME
+293730,Le Lauzet,25,TRONROUT0000000008079083,TRONROUT0000000008079084,SAME
+293730,Le Lauzet,26,TRONROUT0000000008079084,TRONROUT0000000008079062,SAME
+293730,Le Lauzet,27,TRONROUT0000000008079062,TRONROUT0000000008079061,SAME
+293730,Le Lauzet,28,TRONROUT0000000008079061,TRONROUT0000000008079055,INVERSE
+293730,Le Lauzet,29,TRONROUT0000000008079055,null,null
+30683,Le lac des prés et le vallon de la Fauge,1,TRONROUT0000000008077897,TRONROUT0000000331329329,SAME
+30683,Le lac des prés et le vallon de la Fauge,2,TRONROUT0000000331329329,TRONROUT0000000008077883,SAME
+30683,Le lac des prés et le vallon de la Fauge,3,TRONROUT0000000008077883,TRONROUT0000000008077886,INVERSE
+30683,Le lac des prés et le vallon de la Fauge,4,TRONROUT0000000008077886,TRONROUT0000000008077884,SAME
+30683,Le lac des prés et le vallon de la Fauge,5,TRONROUT0000000008077884,TRONROUT0000000008079026,SAME
+30683,Le lac des prés et le vallon de la Fauge,6,TRONROUT0000000008079026,TRONROUT0000000008079030,SAME
+30683,Le lac des prés et le vallon de la Fauge,7,TRONROUT0000000008079030,TRONROUT0000000008079031,INVERSE
+30683,Le lac des prés et le vallon de la Fauge,8,TRONROUT0000000008079031,TRONROUT0000000008079020,SAME
+30683,Le lac des prés et le vallon de la Fauge,9,TRONROUT0000000008079020,TRONROUT0000002206032537,SAME
+30683,Le lac des prés et le vallon de la Fauge,10,TRONROUT0000002206032537,TRONROUT0000000008079045,SAME
+30683,Le lac des prés et le vallon de la Fauge,11,TRONROUT0000000008079045,TRONROUT0000000008079942,SAME
+30683,Le lac des prés et le vallon de la Fauge,12,TRONROUT0000000008079942,TRONROUT0000002206028667,SAME
+30683,Le lac des prés et le vallon de la Fauge,13,TRONROUT0000002206028667,TRONROUT0000000334155352,SAME
+30683,Le lac des prés et le vallon de la Fauge,14,TRONROUT0000000334155352,TRONROUT0000000008079945,SAME
+30683,Le lac des prés et le vallon de la Fauge,15,TRONROUT0000000008079945,TRONROUT0000000334155353,SAME
+30683,Le lac des prés et le vallon de la Fauge,16,TRONROUT0000000334155353,TRONROUT0000000296053917,SAME
+30683,Le lac des prés et le vallon de la Fauge,17,TRONROUT0000000296053917,TRONROUT0000002207432834,SAME
+30683,Le lac des prés et le vallon de la Fauge,18,TRONROUT0000002207432834,TRONROUT0000000008079936,INVERSE
+30683,Le lac des prés et le vallon de la Fauge,19,TRONROUT0000000008079936,TRONROUT0000000008079935,SAME
+30683,Le lac des prés et le vallon de la Fauge,20,TRONROUT0000000008079935,TRONROUT0000000338764753,SAME
+30683,Le lac des prés et le vallon de la Fauge,21,TRONROUT0000000338764753,TRONROUT0000000338764750,SAME
+30683,Le lac des prés et le vallon de la Fauge,22,TRONROUT0000000338764750,TRONROUT0000000338764751,INVERSE
+30683,Le lac des prés et le vallon de la Fauge,23,TRONROUT0000000338764751,TRONROUT0000000008079934,SAME
+30683,Le lac des prés et le vallon de la Fauge,24,TRONROUT0000000008079934,TRONROUT0000002207432780,SAME
+30683,Le lac des prés et le vallon de la Fauge,25,TRONROUT0000002207432780,TRONROUT0000000008079027,INVERSE
+30683,Le lac des prés et le vallon de la Fauge,26,TRONROUT0000000008079027,TRONROUT0000000008079033,SAME
+30683,Le lac des prés et le vallon de la Fauge,27,TRONROUT0000000008079033,TRONROUT0000000008079023,SAME
+30683,Le lac des prés et le vallon de la Fauge,28,TRONROUT0000000008079023,TRONROUT0000000008077885,SAME
+30683,Le lac des prés et le vallon de la Fauge,29,TRONROUT0000000008077885,TRONROUT0000000008076392,SAME
+30683,Le lac des prés et le vallon de la Fauge,30,TRONROUT0000000008076392,TRONROUT0000000008077879,SAME
+30683,Le lac des prés et le vallon de la Fauge,31,TRONROUT0000000008077879,TRONROUT0000000296027668,SAME
+30683,Le lac des prés et le vallon de la Fauge,32,TRONROUT0000000296027668,TRONROUT0000000008077889,SAME
+30683,Le lac des prés et le vallon de la Fauge,33,TRONROUT0000000008077889,null,null
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,1,TRONROUT0000000008086665,TRONROUT0000000008086687,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,2,TRONROUT0000000008086687,TRONROUT0000000332673680,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,3,TRONROUT0000000332673680,TRONROUT0000000332673679,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,4,TRONROUT0000000332673679,TRONROUT0000000008087183,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,5,TRONROUT0000000008087183,TRONROUT0000000008086681,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,6,TRONROUT0000000008086681,TRONROUT0000000332673499,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,7,TRONROUT0000000332673499,TRONROUT0000000008086686,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,8,TRONROUT0000000008086686,TRONROUT0000000008086684,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,9,TRONROUT0000000008086684,TRONROUT0000000008086679,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,10,TRONROUT0000000008086679,TRONROUT0000000332673496,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,11,TRONROUT0000000332673496,TRONROUT0000000332673489,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,12,TRONROUT0000000332673489,TRONROUT0000000008086110,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,13,TRONROUT0000000008086110,TRONROUT0000000008086116,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,14,TRONROUT0000000008086116,TRONROUT0000000008086117,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,15,TRONROUT0000000008086117,TRONROUT0000000008086692,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,16,TRONROUT0000000008086692,TRONROUT0000000008086691,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,17,TRONROUT0000000008086691,TRONROUT0000000008087598,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,18,TRONROUT0000000008087598,TRONROUT0000000008087597,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,19,TRONROUT0000000008087597,TRONROUT0000000296027151,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,20,TRONROUT0000000296027151,TRONROUT0000000332673682,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,21,TRONROUT0000000332673682,TRONROUT0000000008087180,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,22,TRONROUT0000000008087180,TRONROUT0000000296027152,INVERSE
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,23,TRONROUT0000000296027152,TRONROUT0000000332673679,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,24,TRONROUT0000000332673679,TRONROUT0000000332673680,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,25,TRONROUT0000000332673680,TRONROUT0000000008086687,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,26,TRONROUT0000000008086687,TRONROUT0000000008086665,SAME
+376275,Les Balcons Est du Vercors par l'Abri de la Peyrouse au départ de Bourgmenu,27,TRONROUT0000000008086665,null,null
+45405,Rando Bus : le Pas de l'oeille en traversée,1,TRONROUT0000002209679483,TRONROUT0000002209679486,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,2,TRONROUT0000002209679486,TRONROUT0000002209679489,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,3,TRONROUT0000002209679489,TRONROUT0000002209679490,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,4,TRONROUT0000002209679490,TRONROUT0000002209679491,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,5,TRONROUT0000002209679491,TRONROUT0000002209679492,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,6,TRONROUT0000002209679492,TRONROUT0000002209679493,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,7,TRONROUT0000002209679493,TRONROUT0000002209679494,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,8,TRONROUT0000002209679494,TRONROUT0000002209679495,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,9,TRONROUT0000002209679495,TRONROUT0000002209679484,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,10,TRONROUT0000002209679484,TRONROUT0000000008083941,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,11,TRONROUT0000000008083941,TRONROUT0000000008083940,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,12,TRONROUT0000000008083940,TRONROUT0000000008083942,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,13,TRONROUT0000000008083942,TRONROUT0000000008083939,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,14,TRONROUT0000000008083939,TRONROUT0000000008083044,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,15,TRONROUT0000000008083044,TRONROUT0000002209679470,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,16,TRONROUT0000002209679470,TRONROUT0000002209679464,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,17,TRONROUT0000002209679464,TRONROUT0000000008082456,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,18,TRONROUT0000000008082456,TRONROUT0000000008082453,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,19,TRONROUT0000000008082453,TRONROUT0000000008081695,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,20,TRONROUT0000000008081695,TRONROUT0000000008081696,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,21,TRONROUT0000000008081696,TRONROUT0000002209679467,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,22,TRONROUT0000002209679467,TRONROUT0000002207452576,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,23,TRONROUT0000002207452576,TRONROUT0000000008081694,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,24,TRONROUT0000000008081694,TRONROUT0000000008080905,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,25,TRONROUT0000000008080905,TRONROUT0000000296026773,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,26,TRONROUT0000000296026773,TRONROUT0000000008079932,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,27,TRONROUT0000000008079932,TRONROUT0000000338764751,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,28,TRONROUT0000000338764751,TRONROUT0000000008079934,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,29,TRONROUT0000000008079934,TRONROUT0000002207432780,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,30,TRONROUT0000002207432780,TRONROUT0000000008079027,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,31,TRONROUT0000000008079027,TRONROUT0000000008079033,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,32,TRONROUT0000000008079033,TRONROUT0000000008079023,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,33,TRONROUT0000000008079023,TRONROUT0000000008077885,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,34,TRONROUT0000000008077885,TRONROUT0000000008076391,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,35,TRONROUT0000000008076391,TRONROUT0000000008076379,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,36,TRONROUT0000000008076379,TRONROUT0000000338764656,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,37,TRONROUT0000000338764656,TRONROUT0000000008076411,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,38,TRONROUT0000000008076411,TRONROUT0000000008076412,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,39,TRONROUT0000000008076412,TRONROUT0000000008076406,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,40,TRONROUT0000000008076406,TRONROUT0000000334109107,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,41,TRONROUT0000000334109107,TRONROUT0000000008076401,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,42,TRONROUT0000000008076401,TRONROUT0000000008074473,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,43,TRONROUT0000000008074473,TRONROUT0000000008074489,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,44,TRONROUT0000000008074489,TRONROUT0000000008074572,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,45,TRONROUT0000000008074572,TRONROUT0000000271070174,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,46,TRONROUT0000000271070174,TRONROUT0000000271070175,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,47,TRONROUT0000000271070175,TRONROUT0000000008074583,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,48,TRONROUT0000000008074583,TRONROUT0000000008074549,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,49,TRONROUT0000000008074549,TRONROUT0000000008074554,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,50,TRONROUT0000000008074554,TRONROUT0000000008074552,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,51,TRONROUT0000000008074552,TRONROUT0000000008074630,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,52,TRONROUT0000000008074630,TRONROUT0000000008074548,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,53,TRONROUT0000000008074548,TRONROUT0000000296027706,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,54,TRONROUT0000000296027706,TRONROUT0000000008074626,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,55,TRONROUT0000000008074626,TRONROUT0000000008074555,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,56,TRONROUT0000000008074555,TRONROUT0000000008074624,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,57,TRONROUT0000000008074624,TRONROUT0000000008074543,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,58,TRONROUT0000000008074543,TRONROUT0000000008074557,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,59,TRONROUT0000000008074557,TRONROUT0000000008074580,INVERSE
+45405,Rando Bus : le Pas de l'oeille en traversée,60,TRONROUT0000000008074580,TRONROUT0000000008074510,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,61,TRONROUT0000000008074510,TRONROUT0000000008072819,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,62,TRONROUT0000000008072819,TRONROUT0000000008072820,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,63,TRONROUT0000000008072820,TRONROUT0000000008072837,SAME
+45405,Rando Bus : le Pas de l'oeille en traversée,64,TRONROUT0000000008072837,null,null
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,1,TRONROUT0000000008082441,TRONROUT0000000008082440,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,2,TRONROUT0000000008082440,TRONROUT0000002207452466,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,3,TRONROUT0000002207452466,TRONROUT0000000338021342,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,4,TRONROUT0000000338021342,TRONROUT0000000338021341,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,5,TRONROUT0000000338021341,TRONROUT0000000008083044,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,6,TRONROUT0000000008083044,TRONROUT0000000008083042,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,7,TRONROUT0000000008083042,TRONROUT0000000008083507,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,8,TRONROUT0000000008083507,TRONROUT0000002207109441,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,9,TRONROUT0000002207109441,TRONROUT0000000008083509,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,10,TRONROUT0000000008083509,TRONROUT0000000008083508,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,11,TRONROUT0000000008083508,TRONROUT0000000008083511,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,12,TRONROUT0000000008083511,TRONROUT0000002207452554,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,13,TRONROUT0000002207452554,TRONROUT0000000008083518,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,14,TRONROUT0000000008083518,TRONROUT0000000008083047,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,15,TRONROUT0000000008083047,TRONROUT0000000008083048,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,16,TRONROUT0000000008083048,FICTIF004,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,17,FICTIF004,FICTIF005,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,18,FICTIF005,TRONROUT0000002209679466,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,19,TRONROUT0000002209679466,TRONROUT0000002207109438,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,20,TRONROUT0000002207109438,TRONROUT0000002205711506-TRONC2,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,21,TRONROUT0000002205711506-TRONC2,TRONROUT0000000338021347,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,22,TRONROUT0000000338021347,TRONROUT0000000008083944,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,23,TRONROUT0000000008083944,TRONROUT0000000008083948,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,24,TRONROUT0000000008083948,TRONROUT0000000008083943,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,25,TRONROUT0000000008083943,TRONROUT0000000008083942,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,26,TRONROUT0000000008083942,TRONROUT0000000008083939,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,27,TRONROUT0000000008083939,TRONROUT0000000338021341,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,28,TRONROUT0000000338021341,TRONROUT0000000338021342,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,29,TRONROUT0000000338021342,TRONROUT0000002207452466,SAME
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,30,TRONROUT0000002207452466,TRONROUT0000000008082440,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,31,TRONROUT0000000008082440,TRONROUT0000000008082441,INVERSE
+55536,Grande Moucherolle : par le Col des Deux Soeurs et le pas de la Balme,32,TRONROUT0000000008082441,null,null
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,1,TRONROUT0000002209679465,TRONROUT0000002209679501,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,2,TRONROUT0000002209679501,TRONROUT0000002209679502,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,3,TRONROUT0000002209679502,TRONROUT0000002209679499,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,4,TRONROUT0000002209679499,TRONROUT0000000296053832,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,5,TRONROUT0000000296053832,TRONROUT0000000332220182,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,6,TRONROUT0000000332220182,TRONROUT0000002207109421,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,7,TRONROUT0000002207109421,TRONROUT0000002207109419,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,8,TRONROUT0000002207109419,TRONROUT0000000296053830,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,9,TRONROUT0000000296053830,TRONROUT0000002207109427,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,10,TRONROUT0000002207109427,TRONROUT0000000296053829,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,11,TRONROUT0000000296053829,TRONROUT0000002207109428,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,12,TRONROUT0000002207109428,TRONROUT0000002206032541,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,13,TRONROUT0000002206032541,TRONROUT0000000008083940,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,14,TRONROUT0000000008083940,TRONROUT0000000008083942,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,15,TRONROUT0000000008083942,TRONROUT0000000008083937,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,16,TRONROUT0000000008083937,TRONROUT0000002205707328,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,17,TRONROUT0000002205707328,TRONROUT0000002207109440,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,18,TRONROUT0000002207109440,TRONROUT0000002207109441,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,19,TRONROUT0000002207109441,TRONROUT0000000008083509,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,20,TRONROUT0000000008083509,TRONROUT0000000008083508,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,21,TRONROUT0000000008083508,TRONROUT0000000008083511,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,22,TRONROUT0000000008083511,TRONROUT0000002207452554,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,23,TRONROUT0000002207452554,TRONROUT0000000008083518,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,24,TRONROUT0000000008083518,TRONROUT0000000008083047,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,25,TRONROUT0000000008083047,TRONROUT0000000008083048,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,26,TRONROUT0000000008083048,FICTIF004,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,27,FICTIF004,TRONROUT0000000008083519,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,28,TRONROUT0000000008083519,TRONROUT0000000008083517,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,29,TRONROUT0000000008083517,FICTIF002,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,30,FICTIF002,TRONROUT0000000008083521-TRONC1,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,31,TRONROUT0000000008083521-TRONC1,TRONROUT0000000008083051,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,32,TRONROUT0000000008083051,TRONROUT0000000296053792,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,33,TRONROUT0000000296053792,TRONROUT0000000338165192,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,34,TRONROUT0000000338165192,TRONROUT0000002209679479,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,35,TRONROUT0000002209679479,TRONROUT0000002209679477,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,36,TRONROUT0000002209679477,TRONROUT0000000338165191,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,37,TRONROUT0000000338165191,TRONROUT0000002207452476,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,38,TRONROUT0000002207452476,TRONROUT0000002207453058,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,39,TRONROUT0000002207453058,TRONROUT0000002207452535,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,40,TRONROUT0000002207452535,TRONROUT0000002207452573,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,41,TRONROUT0000002207452573,TRONROUT0000002207452578,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,42,TRONROUT0000002207452578,FICTIF003,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,43,FICTIF003,TRONROUT0000000008082454,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,44,TRONROUT0000000008082454,TRONROUT0000000008082456,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,45,TRONROUT0000000008082456,TRONROUT0000002209679464,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,46,TRONROUT0000002209679464,TRONROUT0000002209679470,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,47,TRONROUT0000002209679470,TRONROUT0000000008083044,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,48,TRONROUT0000000008083044,TRONROUT0000000008083939,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,49,TRONROUT0000000008083939,TRONROUT0000000008083942,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,50,TRONROUT0000000008083942,TRONROUT0000000008083940,INVERSE
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,51,TRONROUT0000000008083940,TRONROUT0000002206032541,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,52,TRONROUT0000002206032541,TRONROUT0000002207109428,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,53,TRONROUT0000002207109428,TRONROUT0000000296053829,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,54,TRONROUT0000000296053829,TRONROUT0000002207109427,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,55,TRONROUT0000002207109427,TRONROUT0000000296053830,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,56,TRONROUT0000000296053830,TRONROUT0000002207109419,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,57,TRONROUT0000002207109419,TRONROUT0000002207109421,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,58,TRONROUT0000002207109421,TRONROUT0000000332220182,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,59,TRONROUT0000000332220182,TRONROUT0000000296053832,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,60,TRONROUT0000000296053832,TRONROUT0000002209679499,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,61,TRONROUT0000002209679499,TRONROUT0000002209679502,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,62,TRONROUT0000002209679502,TRONROUT0000002209679501,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,63,TRONROUT0000002209679501,TRONROUT0000002209679465,SAME
+571521,Col des 2 Sœurs - Grande Moucherolle - Sophie - Pas de l'Œille en boucle,64,TRONROUT0000002209679465,null,null
