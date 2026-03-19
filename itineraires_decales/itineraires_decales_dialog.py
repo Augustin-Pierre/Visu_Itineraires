@@ -121,8 +121,12 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         self.btn_reset_traitement.clicked.connect(self._reset_traitement)
         self.progressBar.setValue(0); self.progressBar.setFormat("En attente...")
 
-    def _log(self, msg):
-        self.zl_journal_dexe.append(msg)
+    def _log(self, msg, onglet="traitement"):
+        if onglet == "traitement":
+            self.zl_journal_dexe.append(msg)  # <--- CORRIGÉ ICI (sans le _1)
+        elif onglet == "export":
+            self.zl_journal_dexport.append(msg)
+
         QApplication.processEvents()
 
     def _verifier_pret(self):
@@ -132,9 +136,12 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         return True
 
     def _reset_traitement(self):
-        self.layer_strokesroute = None; self.layer_iti_eclate  = None
-        self.layer_fusion_iti   = None; self.layer_noeuds      = None
-        self.index_nodes        = None; self.layer_strokes_iti = None
+        self.layer_strokesroute = None
+        self.layer_iti_eclate   = None
+        self.layer_fusion_iti   = None
+        self.layer_noeuds       = None
+        self.index_nodes        = None
+        self.layer_strokes_iti  = None
         self.temps_debut        = None
         self.zl_journal_dexe.clear()
         self.progressBar.setValue(0); self.progressBar.setFormat("En attente...")
@@ -142,8 +149,8 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
     def _maj_progression_traitement(self, pourcentage, message):
         """Met à jour la barre de progression."""
         self.progressBar.setValue(pourcentage)
-        self.progressBar.setFormat(message)
-        # Indispensable pour que l'interface ne fige pas !
+        self.zl_journal_dexe.append(message)
+        
         QApplication.processEvents()
 
     def _lancer_traitement(self):
@@ -166,32 +173,21 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         
         try:
             self._maj_progression_traitement(5, "Démarrage du traitement...")
-            # self.progressBar.setValue(10)
-            # self.progressBar.setFormat("Traitement en cours...")
-            # # On force le rafraîchissement de l'UI pour éviter qu'elle ne fige
-            # QApplication.processEvents()
 
             resultats = lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=self._maj_progression_traitement)
 
-            # Stockage des couches résultantes dans l'instance du dialogue
             self.layer_iti = resultats.get("layer_iti")
             self.layer_res = resultats.get("layer_res")
             self.layer_strokesroute = resultats.get("layer_strokesroute")
             self.layer_strokes_iti = resultats.get("layer_strokes_iti")
-
-            self._maj_progression_traitement(100, "Traitement terminé avec succès !")
-            # self.progressBar.setValue(100)
-            # self.progressBar.setFormat("Traitement terminée avec succès !")
             
             duree = round(time.time() - self.temps_debut, 1)
-            self._log(f"OK : Traitement terminée en {duree} secondes.")
+            self._maj_progression_traitement(100, f"Traitement terminé avec succès en {duree} secondes !")
             self._log(f"Couche générée : {self.layer_strokes_iti.featureCount()} strokes d'itinéraires.")
 
         except Exception as e:
-            # En cas de crash dans traitement.py, on capture l'erreur pour ne pas fermer QGIS
             self._log(f"ERREUR CRITIQUE durant le traitement : {str(e)}")
             self.progressBar.setValue(0)
-            # self.progressBar.setFormat("Erreur de traitement")
             self._maj_progression_traitement(0, "Erreur de traitement")
     
 
@@ -212,7 +208,6 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
             return
             
         canvas = iface.mapCanvas()
-        # On passe le paramètre mode="selection" à ton outil
         self.outil_carte_actif = SelectItineraire(canvas, self.layer_strokes_iti, largeur=2, mode="selection")
         canvas.setMapTool(self.outil_carte_actif)
         self._log("OK : Mode sélection activé sur la carte.")
@@ -247,7 +242,7 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         dossier = self.btn_browse_destination.filePath()
         
         if not dossier:
-            self._log("ERR : Veuillez choisir un dossier de destination.")
+            self._log("ERR : Veuillez choisir un dossier de destination.", onglet="export")
             return
 
         # Vérifier quel bouton radio est coché pour définir le format
@@ -262,7 +257,7 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
             fmt = "PDF"
 
         if not fmt:
-            self._log("ERR : Veuillez cocher un format d'export.")
+            self._log("ERR : Veuillez cocher un format d'export.", onglet="export")
             return
 
         couches_a_exporter = [
@@ -274,7 +269,7 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         canvas = iface.mapCanvas()
 
         # Lancer l'export 
-        self._log(f">>> Lancement de l'export au format {fmt}...")
+        self._log(f">>> Lancement de l'export au format {fmt}...", onglet="export")
         
         exporter_couches(couches_a_exporter, dossier, fmt, canvas, self.zl_journal_dexport)
 
@@ -301,5 +296,5 @@ class ItinerairesDecalesDialog(QtWidgets.QDialog, FORM_CLASS):
         self.btn_export_png.setAutoExclusive(True)
         self.btn_export_pdf.setAutoExclusive(True)
         
-        self._log("Champs d'export réinitialisés.")
+        self._log("Champs d'export réinitialisés.", onglet="export")
 

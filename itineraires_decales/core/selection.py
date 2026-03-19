@@ -94,7 +94,6 @@ class SelectItineraire(QgsMapTool):
         Permet l'échange de deux strokes.
         """
         iface.mainWindow().statusBar().showMessage("Commencer l'échange.")
-        self.layer.removeSelection()
 
         if event.button() != Qt.LeftButton: 
             return
@@ -153,75 +152,75 @@ class SelectItineraire(QgsMapTool):
                 pt1 = geom.vertexAt(next_vertex_index - 1)
                 best_vector = (pt2.x() - pt1.x(), pt2.y() - pt1.y()) # (x2-x1, y2-y1)
 
-            # --- ECHANGE ---
-        
-            if not best_feat:
-                # Clic dans le vide
+        # --- ECHANGE ---
+    
+        if not best_feat:
+            # Clic dans le vide
+            self.layer.removeSelection()
+            self.first_feature = None
+            self.first_vector = None
+            iface.mainWindow().statusBar().showMessage("Sélection annulée. Cliquez sur un stroke.", 5000)
+            return
+
+        if self.first_feature is None:
+            # Sélection du premier stroke
+            self.first_feature = best_feat
+            self.first_vector = best_vector # On sauvegarde le vecteur du premier clic
+            self.layer.selectByIds([best_feat.id()])
+            iface.mainWindow().statusBar().showMessage("Stroke 1 sélectionné. Cliquez sur le stroke 2 pour échanger (ou dans le vide pour annuler).")
+            
+        else:
+            # Clic sur le second stroke
+            if self.first_feature.id() == best_feat.id():
+                # Clic sur le même stroke = on annule la sélection 
                 self.layer.removeSelection()
                 self.first_feature = None
                 self.first_vector = None
                 iface.mainWindow().statusBar().showMessage("Sélection annulée. Cliquez sur un stroke.", 5000)
-                return
-
-            if self.first_feature is None:
-                # Sélection du premier stroke
-                self.first_feature = best_feat
-                self.first_vector = best_vector # On sauvegarde le vecteur du premier clic
-                self.layer.selectByIds([best_feat.id()])
-                iface.mainWindow().statusBar().showMessage("Stroke 1 sélectionné. Cliquez sur le stroke 2 pour échanger (ou dans le vide pour annuler).")
-                
             else:
-                # Clic sur le second stroke
-                if self.first_feature.id() == best_feat.id():
-                    # Clic sur le même stroke = on annule la sélection 
-                    self.layer.removeSelection()
-                    self.first_feature = None
-                    self.first_vector = None
-                    iface.mainWindow().statusBar().showMessage("Sélection annulée. Cliquez sur un stroke.", 5000)
-                else:
-                    # Clic sur un stroke différent = on peut procéder à l'échange 
-                    idx = self.layer.fields().indexOf("Offset")
-                    
-                    offset1 = self.first_feature["Offset"]
-                    offset2 = best_feat["Offset"]
+                # Clic sur un stroke différent = on peut procéder à l'échange 
+                idx = self.layer.fields().indexOf("Offset")
+                
+                offset1 = self.first_feature["Offset"]
+                offset2 = best_feat["Offset"]
 
-                    # Détermination des signes (+1 ou -1) de l'offset
-                    signe1 = 1 if offset1 >= 0 else -1
-                    signe2 = 1 if offset2 >= 0 else -1
-                    meme_signe_offset = (signe1 == signe2)
-                    
-                    # On récupère les deux vecteurs
-                    x1, y1 = self.first_vector
-                    x2, y2 = best_vector
-                    
-                    # Calcul du produit scalaire mathématique
-                    produit_scalaire = (x1 * x2) + (y1 * y2)
-                    
-                    # REGLES DE DECISION DES ECHANGES 
-                    if produit_scalaire > 0:
-                        # LES DEUX STROKES VONT DANS LE MÊME SENS : On échange simplement les valeurs.
-                        nouveau_offset1 = offset2
-                        nouveau_offset2 = offset1
+                # Détermination des signes (+1 ou -1) de l'offset
+                signe1 = 1 if offset1 >= 0 else -1
+                signe2 = 1 if offset2 >= 0 else -1
+                meme_signe_offset = (signe1 == signe2)
+                
+                # On récupère les deux vecteurs
+                x1, y1 = self.first_vector
+                x2, y2 = best_vector
+                
+                # Calcul du produit scalaire mathématique
+                produit_scalaire = (x1 * x2) + (y1 * y2)
+                
+                # REGLES DE DECISION DES ECHANGES 
+                if produit_scalaire > 0:
+                    # LES DEUX STROKES VONT DANS LE MÊME SENS : On échange simplement les valeurs.
+                    nouveau_offset1 = offset2
+                    nouveau_offset2 = offset1
+                else:
+                    # LES DEUX STROKES VONT EN SENS INVERSE : deux cas
+                    if not meme_signe_offset:
+                        # SIGNE D'OFFSET DIFFERENTS : on échange les valeurs absolues, on garde le signe
+                        nouveau_offset1 = signe1 * abs(offset2)
+                        nouveau_offset2 = signe2 * abs(offset1)
                     else:
-                        # LES DEUX STROKES VONT EN SENS INVERSE : deux cas
-                        if not meme_signe_offset:
-                            # SIGNE D'OFFSET DIFFERENTS : on échange les valeurs absolues, on garde le signe
-                            nouveau_offset1 = signe1 * abs(offset2)
-                            nouveau_offset2 = signe2 * abs(offset1)
-                        else:
-                            # MÊME SIGNE D'OFFSET : on inverse les signes (multiplication par -1)
-                            nouveau_offset1 = -offset2
-                            nouveau_offset2 = -offset1
-                    
-                    # APPLICATIONS DES MODIFICATIONS DANS LA TABLE ATTRIBUTAIRE 
-                    self.layer.startEditing()
-                    self.layer.changeAttributeValue(self.first_feature.id(), idx, nouveau_offset1)
-                    self.layer.changeAttributeValue(best_feat.id(), idx, nouveau_offset2)
-                    self.layer.commitChanges() 
-                    
-                    self.layer.removeSelection()   
-                    self.layer.triggerRepaint()             
-                    
-                    self.first_feature = None
-                    self.first_vector = None
-                    iface.mainWindow().statusBar().showMessage("Échange réussi ! Vous pouvez cliquer sur un nouveau stroke.", 5000)
+                        # MÊME SIGNE D'OFFSET : on inverse les signes (multiplication par -1)
+                        nouveau_offset1 = -offset2
+                        nouveau_offset2 = -offset1
+                
+                # APPLICATIONS DES MODIFICATIONS DANS LA TABLE ATTRIBUTAIRE 
+                self.layer.startEditing()
+                self.layer.changeAttributeValue(self.first_feature.id(), idx, nouveau_offset1)
+                self.layer.changeAttributeValue(best_feat.id(), idx, nouveau_offset2)
+                self.layer.commitChanges() 
+                
+                self.layer.removeSelection()   
+                self.layer.triggerRepaint()             
+                
+                self.first_feature = None
+                self.first_vector = None
+                iface.mainWindow().statusBar().showMessage("Échange réussi ! Vous pouvez cliquer sur un nouveau stroke.", 5000)
