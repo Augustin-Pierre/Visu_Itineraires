@@ -154,7 +154,7 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
     paramoutput0 = processing.run("native:fixgeometries", paraminput0)
     layer_res_fixegeom = paramoutput0["OUTPUT"]
 
-    #
+    # création des strokes par fusion des tronçons endtre les noeuds de degré 3 ou plus (géotraitement dissolve)
     paraminput1 = {
             'INPUT':layer_res_fixegeom,
             'FIELD':[],
@@ -175,17 +175,19 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
 
     # Subdivision des itineraires en segments
 
-    # créer la couche
+    # créer la couche des segments d'itinéraire
     crs = layer_iti.crs().authid()
     layer_iti_eclate = QgsVectorLayer(f"LineString?crs={crs}", "iti_eclate", "memory")
     pr1 = layer_iti_eclate.dataProvider()
 
     # ajouter les mêmes champs
     pr1.addAttributes(layer_iti.fields())
+
+    # ajout d'un attribut rang pour l'indexation des segments dans l'ordre
     pr1.addAttributes([QgsField("rang", QVariant.Int)])
     layer_iti_eclate.updateFields()
 
-    # ajout d'un attribut rang pour l'indexation des segments dans l'ordre
+    
     layer_iti_eclate.startEditing()
 
     for f in layer_iti.getFeatures():
@@ -199,6 +201,7 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
         for line in lines:
             # Créer un segment pour chaque paire de points consécutifs
             for i in range(len(line)-1):
+                # Ne pas créer de segment si les points sont trop proches
                 if line[i].distance(line[i+1])<tolerance :
                     continue
                 segment = QgsGeometry.fromPolylineXY([line[i], line[i+1]])
@@ -214,6 +217,8 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
     #QgsProject.instance().addMapLayer(layer_iti_eclate)
 
     if progression: progression(60, "Détection des noeuds du graphe...")
+
+    # détection des noeuds du graph avec la fonction définie plus haut
     layer_noeuds_graph = detect_noeud_iti(layer_iti_eclate,'id', 'noeuds_graph')
 
     prN = layer_noeuds_graph.dataProvider()
@@ -221,6 +226,8 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
     layer_noeuds_graph.updateFields()
     layer_noeuds_graph.startEditing()
     k_id_N = 0
+
+    # attribution à chaque noeud un identifiant unique
     for feat in layer_noeuds_graph.getFeatures():
         layer_noeuds_graph.changeAttributeValue(feat.id(), layer_noeuds_graph.fields().indexOf("id"), k_id_N)
         k_id_N+=1
@@ -229,6 +236,7 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
     # QgsProject.instance().addMapLayer(layer_noeuds_graph)
 
     # fusion des segments de même id_iti noeuds en noeuds pour obtenir les strokes
+    
     if progression: progression(75, "Fusion des segments d'itinéraire de même id noeuds en noeuds pour obtenir les strokes...")
     # --- Créer un index spatial pour les nœuds ---
 
@@ -342,21 +350,25 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
         Dict_sens_offset = {'identique':[],'inverse':[]}
         geom=feature.geometry()
         candidats=index.intersects(geom.boundingBox())
-        
+
+        # création du dictionnaire contenant la liste des offset des strokes d'itinéraires de même géométrie suivant si ils vont dans le même sens ou non
         for fid in candidats : 
             autre = layer_strokes_iti.getFeature(fid)
-            
+
             if autre.id() != feature.id() :
                 if autre.geometry().isGeosEqual(geom):
                     if feature.geometry().asPolyline()==autre.geometry().asPolyline() :
                         Dict_sens_offset['identique'].append(autre["Offset"])
                     else : 
                         Dict_sens_offset['inverse'].append(autre["Offset"])
-                
+
+        # liste des valeurs absolues des max des deux listes du dictionnaire
         maxs = [max(Dict_sens_offset['identique'],key=abs,default=0),max(Dict_sens_offset['inverse'],key=abs,default=0)]
-        
+
+        # si le maximum en valeur absolue est atteint deux fois
         if abs(maxs[0])==abs(maxs[1]) or -max(maxs,key=abs) in Dict_sens_offset['identique'] or -max(maxs,key=abs) in Dict_sens_offset['inverse']:
             feature[idx]=abs(max(maxs,key=abs))+1
+        
         else :
             if max(maxs,key=abs)==maxs[0]:
                 feature[idx]=-maxs[0]
