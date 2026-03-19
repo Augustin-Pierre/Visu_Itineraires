@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ItinerairesDecalesDialogBase</class>
+ <widget class="QDialog" name="ItinerairesDecalesDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>511</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Itinéraires Décalés</string>
+  </property>
+  <widget class="QWidget" name="entete" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>491</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 8px;
+background-color: #FAFBFF;
+
+</string>
+   </property>
+   <widget class="QLabel" name="titre">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #003189; font-size: 20px; font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Cartographie des itinéraires de randonnée</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="soustitre">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>451</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #6AAF3D; font-size: 12px; font-style: italic;</string>
+    </property>
+    <property name="text">
+     <string>Style plan de bus</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>461</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabWidget::pane {
+				
+				border-radius: 0px 6px 6px 6px;
+                background-color: #FFFFFF;
+            }
+
+ QTabBar::tab {
+                background-color: #E8EAF0; color: #2C3E50;
+                padding: 10px 0px; min-width: 110px; margin-right: 3px;
+                border-top-left-radius: 6px; border-top-right-radius: 6px;
+                font-weight: bold; font-size: 12px;
+            }
+           
+            QTabBar::tab:selected        { background-color: #003189; color: #FFFFFF; }
+            QTabBar::tab:hover:!selected { background-color: #6AAF3D; color: #FFFFFF; }</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab_donnees">
+     <attribute name="title">
+      <string>Données</string>
+     </attribute>
+     <widget class="QGroupBox" name="grp_selection_couche">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>451</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string>Sélection des couches</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>431</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="gl_selection_couche">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_couche_itineraire">
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:#003189; min-width:40px;</string>
+          </property>
+          <property name="text">
+           <string>Couche itinéraires : </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QgsFileWidget" name="btn_browse_iti">
+          <property name="styleSheet">
+           <string notr="true">
+            border: 2px solid #D0D4E8; border-radius: 6px;
+            background-color: #F0F2F8; color: #2C3E50;
+            font-family: Consolas, monospace; font-size: 12px; padding: 6px;
+        </string>
+          </property>
+          <property name="dialogTitle">
+           <string>Chemin vers itineraire.shp ...</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_couche_reseau">
+          <property name="styleSheet">
+           <string notr="true">color:#003189; min-width:40px;</string>
+          </property>
+          <property name="text">
+           <string>Couche réseau : </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QgsFileWidget" name="btn_browse_res">
+          <property name="styleSheet">
+           <string notr="true">
+            border: 2px solid #D0D4E8; border-radius: 6px;
+            background-color: #F0F2F8; color: #2C3E50;
+            font-family: Consolas, monospace; font-size: 12px; padding: 6px;
+        </string>
+          </property>
+          <property name="dialogTitle">
+           <string>Chemin vers itineraire.shp ...</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>451</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="btn_valider_donnees">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+            background-color: #003189; color: #FFFFFF;
+            border: none; border-radius: 6px;
+            padding: 8px 16px; font-weight: bold; font-size: 13px;
+        }
+        QPushButton:hover    { background-color: #6AAF3D; }
+        QPushButton:pressed  { background-color: #002060; }
+        QPushButton:disabled { background-color: #B0B8C8; }</string>
+         </property>
+         <property name="text">
+          <string>Valider les données</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_reset_donnees">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+            background-color: #95A5A6; color: #FFFFFF;
+            border: none; border-radius: 6px;
+            padding: 8px 16px; font-weight: bold; font-size: 13px;
+        }
+        QPushButton:hover { background-color: #7F8C8D; }</string>
+         </property>
+         <property name="text">
+          <string>Réinitialiser</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="grp_resume_donnees">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>270</y>
+        <width>451</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string>Chargement des données</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>421</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="gl_chargement_donnees">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_chargement_itineraires">
+          <property name="text">
+           <string>Itinéraires : non chargés</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_chargement_reseau">
+          <property name="text">
+           <string>Réseau : non chargé</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_traitement">
+     <attribute name="title">
+      <string>Traitement</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>170</y>
+        <width>451</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="btn_lancer_traitement">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+            background-color: #003189; color: #FFFFFF;
+            border: none; border-radius: 6px;
+            padding: 8px 16px; font-weight: bold; font-size: 13px;
+        }
+        QPushButton:hover    { background-color: #6AAF3D; }
+        QPushButton:pressed  { background-color: #002060; }
+        QPushButton:disabled { background-color: #B0B8C8; }</string>
+         </property>
+         <property name="text">
+          <string>Lancer tous les traitements</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_reset_traitement">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+            background-color: #95A5A6; color: #FFFFFF;
+            border: none; border-radius: 6px;
+            padding: 8px 16px; font-weight: bold; font-size: 13px;
+        }
+        QPushButton:hover { background-color: #7F8C8D; }</string>
+         </property>
+         <property name="text">
+          <string>Réinitialiser</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="grp_journal_dexecution_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>320</y>
+        <width>451</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string>Journal d'éxécution</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>431</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="gl_journal_dexe">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QTextEdit" name="zl_journal_dexe">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>-1</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTextEdit {
+            border: 2px solid #D0D4E8; border-radius: 6px;
+            background-color: #F0F2F8; color: #2C3E50;
+            font-size: 12px; padding: 6px;
+        }</string>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:12px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f0f2f8;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="grp_apparence_iti">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>451</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string>Apparence des itinéraires</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_13">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>431</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="gl_apparence_iti">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_couleur_iti">
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:#003189; min-width:40px;</string>
+          </property>
+          <property name="text">
+           <string>Téléchargez un fichier gérant la couleur des itinéraires :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QgsFileWidget" name="btn_browse_couleur_iti_">
+          <property name="styleSheet">
+           <string notr="true">
+            border: 2px solid #D0D4E8; border-radius: 6px;
+            background-color: #F0F2F8; color: #2C3E50;
+            font-family: Consolas, monospace; font-size: 12px; padding: 6px;
+        </string>
+          </property>
+          <property name="dialogTitle">
+           <string>Chemin vers itineraire.shp ...</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_largeur">
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:#003189; min-width:40px;</string>
+          </property>
+          <property name="text">
+           <string>Choisir l'épaisseur des traits : </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QSlider" name="slider_largeur">
+            <property name="maximum">
+             <number>15</number>
+            </property>
+            <property name="pageStep">
+             <number>1</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="valeur_largeur">
+            <property name="text">
+             <string>0 unité de carte</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="grp_progression">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>230</y>
+        <width>451</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string>Progression</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>431</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="gl_progression">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QProgressBar" name="progressBar">
+          <property name="minimumSize">
+           <size>
+            <width>11</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+            border: 2px solid #D0D4E8; border-radius: 6px;
+            background-color: #F0F2F8;
+            font-size: 12px; padding: 6px;
+        </string>
+          </property>
+          <property name="value">
+           <number>0</number>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="textVisible">
+           <bool>true</bool>
+          </property>
+          <property name="textDirection">
+           <enum>QProgressBar::TopToBottom</enum>
+          </property>
+          <property name="format">
+           <string>En attente...</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_selection">
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <attribute name="title">
+      <string>Sélection</string>
+     </attribute>
+     <widget class="QGroupBox" name="grp_selection">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>451</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string>Sélectionner un stroke</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_10">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>431</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="gl_selection">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="btn_activer_selection">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+            background-color: #FFFFFF; color: #003189;
+            border: 2px solid #003189; border-radius: 6px;
+            padding: 8px 16px; font-weight: bold; font-size: 13px;
+        }
+        QPushButton:hover   { background-color: #003189; color: #FFFFFF; }
+        QPushButton:pressed { background-color: #002060; color: #FFFFFF; }</string>
+          </property>
+          <property name="text">
+           <string>Activer la sélection par click</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="grp_ech_pos">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>451</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string>Echanger la position de deux strokes </string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_11">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>431</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="gl_ech_pos">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="btn_activer_echanges">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+            background-color: #FFFFFF; color: #003189;
+            border: 2px solid #003189; border-radius: 6px;
+            padding: 8px 16px; font-weight: bold; font-size: 13px;
+        }
+        QPushButton:hover   { background-color: #003189; color: #FFFFFF; }
+        QPushButton:pressed { background-color: #002060; color: #FFFFFF; }</string>
+          </property>
+          <property name="text">
+           <string>Activer la phase d'échange de strokes</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_export">
+     <attribute name="title">
+      <string>Export</string>
+     </attribute>
+     <widget class="QGroupBox" name="grp_export">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>451</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>431</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>16</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_format_export">
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:#003189; min-width:40px;</string>
+          </property>
+          <property name="text">
+           <string>Choisir un format d'export :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <property name="leftMargin">
+           <number>4</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>4</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QRadioButton" name="btn_export_shp">
+            <property name="text">
+             <string>Shapefile</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="btn_export_gpkg">
+            <property name="text">
+             <string>GeoPackage</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="btn_export_png">
+            <property name="text">
+             <string>PNG (carte)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="btn_export_pdf">
+            <property name="text">
+             <string>PDF (carte)</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_destination">
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:#003189; min-width:40px;</string>
+          </property>
+          <property name="text">
+           <string>Choisir un dossier de destination :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QgsFileWidget" name="btn_browse_destination">
+          <property name="styleSheet">
+           <string notr="true">
+            border: 2px solid #D0D4E8; border-radius: 6px;
+            background-color: #F0F2F8; color: #2C3E50;
+            font-family: Consolas, monospace; font-size: 12px; padding: 6px;
+        </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>451</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <item>
+        <widget class="QPushButton" name="btn_exporter">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+            background-color: #6AAF3D; color: #FFFFFF;
+            border: none; border-radius: 6px;
+            padding: 8px 16px; font-weight: bold; font-size: 13px;
+        }
+        QPushButton:hover { background-color: #5a9e2f; }</string>
+         </property>
+         <property name="text">
+          <string>Exporter</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_reset_export">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+            background-color: #95A5A6; color: #FFFFFF;
+            border: none; border-radius: 6px;
+            padding: 8px 16px; font-weight: bold; font-size: 13px;
+        }
+        QPushButton:hover { background-color: #7F8C8D; }</string>
+         </property>
+         <property name="text">
+          <string>Réinitialiser</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="grp_journal_dexport">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>270</y>
+        <width>451</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+            border: 2px solid #D0D4E8; border-radius: 8px;
+            margin-top: 14px; padding: 12px 10px 10px 10px;
+            background-color: #FAFBFF;
+        }
+        QGroupBox::title {
+            subcontrol-origin: margin; subcontrol-position: top left;
+            left: 12px; padding: 0 6px;
+            color: #003189; font-weight: bold; font-size: 13px;
+        }</string>
+      </property>
+      <property name="title">
+       <string>Journal d'éxécution</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_8">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>431</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="gl_journal_dexport">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QTextEdit" name="zl_journal_dexport">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>10</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTextEdit {
+            border: 2px solid #D0D4E8; border-radius: 6px;
+            background-color: #F0F2F8; color: #2C3E50;
+            font-family: Consolas, monospace; font-size: 12px; padding: 6px;
+        }</string>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Consolas','monospace'; font-size:12px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QgsFileWidget</class>
+   <extends>QWidget</extends>
+   <header>qgsfilewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
