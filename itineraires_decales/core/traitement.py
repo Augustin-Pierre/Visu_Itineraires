@@ -52,7 +52,7 @@ def detect_noeud_iti(layer, nom_champ_id_iti ,nom_layer_res) : #layer en linestr
     # on créer un dictionnaire qui associe à chaque point ses voisins par le graphe
     pt_voisins = {pt: set() for pt in points}
     
-    # on créer un dictionnaire qui associe à chaque point les id_iti des intinéraires passant par là (c'est unb set donc si l'itinéraire passe plusieurs fois, il n'apparait qu'une fois)    id_iti_pt = {pt: set() for pt in points}
+    # on créer un dictionnaire qui associe à chaque point les id_iti des intinéraires passant par là (c'est unb set donc si l'itinéraire passe plusieurs fois, il n'apparait qu'une fois)
     id_iti_pt = {pt: set() for pt in points}
 
     # création du set des noeuds à garder
@@ -132,7 +132,7 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
     if progression:progression(10, "Chargement des couches...")
     layer_iti = QgsVectorLayer(chemin_iti, "itineraire", "ogr")
     layer_res = QgsVectorLayer(chemin_res, "reseau", "ogr")
-
+    
     # Lignes de travail :
     # QgsProject.instance().addMapLayer(layer_iti)
     # QgsProject.instance().addMapLayer(layer_res)
