@@ -52,7 +52,7 @@ def detect_noeud_iti(layer, nom_champ_id_iti ,nom_layer_res) : #layer en linestr
     # on créer un dictionnaire qui associe à chaque point ses voisins par le graphe
     pt_voisins = {pt: set() for pt in points}
     
-    # on créer un dictionnaire qui associe à chaque point les id_iti des intinéraires passant par là
+    # on créer un dictionnaire qui associe à chaque point les id_iti des intinéraires passant par là (c'est unb set donc si l'itinéraire passe plusieurs fois, il n'apparait qu'une fois)
     id_iti_pt = {pt: set() for pt in points}
     
     # création du set des noeuds à garder
@@ -78,11 +78,12 @@ def detect_noeud_iti(layer, nom_champ_id_iti ,nom_layer_res) : #layer en linestr
         # si l'itinéraire fait un demi tour
         else :
             itis = []
+            # On récupère tous les itinéraires qui passent dans les points au voisinage
             for voisin in pt_voisins[pt] :
                 itis.extend(id_iti_pt[voisin])
             decompte_iti = Counter(itis)
             unique = [iti for iti,freq in decompte_iti.items() if freq==1]
-            if len(unique)>0 and bool(set(unique) & set(id_iti_pt[pt])):
+            if len(unique)>0 and bool(set(unique) & set(id_iti_pt[pt])): #si l'itinéraire passe que par un point du voisinage et par le point en question alors il fait demi tour en ce point OU c'est l'extrémité de l'itinéraire
                 garder.add(pt)
     
     features_to_add = []
@@ -110,7 +111,7 @@ def is_near_node(pt, index_nodes, layer_noeuds_graph, tolerance=1e-6):
     return dist < tolerance
 
 # =============================================================================
-# Fonction pour attribuer une couleur par itinéraire
+# Fonction qui retourne un liste de n couleurs équirépartites en teinte (pour qu'elles soient au maximum discernables les unes des autres)
 # =============================================================================
 
 def generate_distinct_colors(n, saturation=0.75, value=0.9):
@@ -131,14 +132,19 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
     if progression:progression(10, "Chargement des couches...")
     layer_iti = QgsVectorLayer(chemin_iti, "itineraire", "ogr")
     layer_res = QgsVectorLayer(chemin_res, "reseau", "ogr")
+    
+    # Lignes de travail :
     # QgsProject.instance().addMapLayer(layer_iti)
     # QgsProject.instance().addMapLayer(layer_res)
 
     #------------------------------------
     # Création des strokes routiers
     #------------------------------------
+
     if progression: progression(15, "Création des strokes routiers...")
 
+
+    # réparation des géométries (au cas où)
     paraminput0 = {
             'INPUT':layer_res,
             'METHOD':1,
@@ -148,6 +154,7 @@ def lancer_tout(chemin_iti, chemin_res, largeur, tolerance, progression=None):
     paramoutput0 = processing.run("native:fixgeometries", paraminput0)
     layer_res_fixegeom = paramoutput0["OUTPUT"]
 
+    #
     paraminput1 = {
             'INPUT':layer_res_fixegeom,
             'FIELD':[],
